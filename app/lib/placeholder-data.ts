@@ -143,5 +143,10 @@ const revenue = [
   { month: 'Nov', revenue: 3000 },
   { month: 'Dec', revenue: 4800 },
 ];
-
-export { users, customers, invoices, revenue };
+const cardData = {
+  numberOfCustomers: customers.length,
+  numberOfInvoices: invoices.length,
+  totalPaidInvoices: '$92,234.50',
+  totalPendingInvoices: '$34,289.20',
+}
+export { users, customers, invoices, revenue, cardData };
